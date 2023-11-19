@@ -7,6 +7,8 @@
     "**/*.{yaml,yml,yamllint}": "yamllint --strict ."
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.2",
+    "@commitlint/config-conventional": "^18.4.2",
     "husky": "^8.0.3",
     "lint-staged": "^15.1.0"
   }
