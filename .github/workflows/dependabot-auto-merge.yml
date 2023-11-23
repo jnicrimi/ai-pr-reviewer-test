@@ -14,6 +14,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   call-dependabot-auto-merge:
-    uses: jnicrimi/github-actions-shared-workflows/.github/workflows/called-dependabot-auto-merge.yml
+    uses: jnicrimi/github-actions-shared-workflows/.github/workflows/called-dependabot-auto-merge.yml@main
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
